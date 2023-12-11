@@ -27,6 +27,7 @@ class MyAdapter(val vaccinesList: ArrayList<VaccineModel>): RecyclerView.Adapter
     inner class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         var vaccineImage: ImageView
         var vaccineTitle: TextView
+
         init{
             vaccineImage = itemView.findViewById(R.id.imageView)
             vaccineTitle = itemView.findViewById(R.id.text1)
